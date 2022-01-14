@@ -39,6 +39,7 @@ according to [posts online](https://developer.roblox.com/en-us/api-reference/pro
         print(a.Magnitude>0 and a.Unit or a)
     end)
     ```
+    ![Alt text](./img/falling_object.PNG )
     * Fancy pendulum experiment? might be fun but un-necessary
 
 ------------------------
