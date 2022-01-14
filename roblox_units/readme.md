@@ -8,19 +8,19 @@ We need to find the necessary units in Roblox
 |--------|-------------|-----------------|
 |Length | stud ($st$) | $1 st$ = $0.28m$|
 |Time   | second ($s$) | $1s = 1s$|
-|Mass   | kilograndaddy ($kh$) | $1kh = ???kg$
+|Mass   | roblox kg ($kg$) | $1rkg = ???kg$
 
 ## Derived Units
 |Quantity| Roblox Unit | SI conversion
 |--------|-------------|-----------------|
 |Force  | Fig ($F$)    | $1F = ??N$ ($1N = 1kg \frac{m}{s^2}$) |
-|Density| ??? kilograndaddy per cubic stud ($\frac{kh}{st^3}$) ???| 
+|Density| ??? rkg per cubic stud ($\frac{kg}{st^3}$) ???| 
 
 
 
 --------
-1. Confirm acceleration due to gravity is $g = 192.2 st/s^2$
-according to [posts online](https://developer.roblox.com/en-us/api-reference/property/Workspace/Gravity), the value should be $192.2 st/s^2 $
+1. Confirm acceleration due to gravity is $g = 196.2 st/s^2$
+according to [posts online](https://developer.roblox.com/en-us/api-reference/property/Workspace/Gravity), the value should be $196.2 st/s^2 $
     * Can we simply print out the value of `workspace.Gravity` to confirm?
     * Calculate and print the acceleration of a falling object using [this code](https://devforum.roblox.com/t/how-do-you-get-a-players-acceleration/181983/2)
     ```lua
@@ -44,11 +44,11 @@ according to [posts online](https://developer.roblox.com/en-us/api-reference/pro
 
 ------------------------
 
-2. Confirm the value of a roblox force is $1F = 1kh \frac{st}{s^2}$
-    * make a part of a known mass ($1 kh$)
+2. Confirm the value of a roblox force is $1F = 1kg \frac{st}{s^2}$
+    * make a part of a known mass ($1 kg$)
     * in theory, the force on the object due to gravity will be 
         $$F = mg$$
-        $$F = 1kh * -192.2 \frac{st}{s^2}$$
-        $$F = -192.2 kh \frac{st}{s^2} = -192.2 F$$
-    * if we apply an upward force of $192.2F$, and the block does not accelerate, we have confirmed the units of $Figs$ to be $1kh \frac{st}{s^2}$
+        $$F = 1kg * -196.2 \frac{st}{s^2}$$
+        $$F = -196.2 kg \frac{st}{s^2} = -196.2 F$$
+    * if we apply an upward force of $196.2F$, and the block does not accelerate, we have confirmed the units of $Figs$ to be $1rkg \frac{st}{s^2}$
 
